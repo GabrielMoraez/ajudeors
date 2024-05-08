@@ -27,9 +27,9 @@ function App() {
             <img src={card.image} alt={card.title} />
             <h2>{card.title}</h2>
             <p>{card.description}</p>
-            <p>
-              <b>{card.pixKey}</b>
-            </p>
+            <small>
+              <b>{`PIX: ${card.pixKey}`}</b>
+            </small>
           </div>
         ))}
         {loading && <p>Loading...</p>}

@@ -7,101 +7,24 @@
     "pixKey": "ajuda@fresnorock.com.br"
   },
   {
-    "id": 1,
-    "image": "https://pbs.twimg.com/media/GNAgBVFXMAMYgfB?format=jpg&name=large",
-    "title": "SOS Rio Grande do Sul - Fresno",
-    "description": "Ajude com qualquer valor",
-    "pixKey": "ajuda@fresnorock.com.br"
+    "id": 2,
+    "image": "https://pbs.twimg.com/media/GM_1aQyWsAAdE65?format=jpg&name=medium",
+    "title": "Filtros de água para o RS - Felipe Neto",
+    "description": "Ajude na compra de filtros de água potável",
+    "pixKey": "felipenetoajuda@gmail.com"
   },
   {
-    "id": 1,
-    "image": "https://pbs.twimg.com/media/GNAgBVFXMAMYgfB?format=jpg&name=large",
-    "title": "SOS Rio Grande do Sul - Fresno",
-    "description": "Ajude com qualquer valor",
-    "pixKey": "ajuda@fresnorock.com.br"
+    "id": 3,
+    "image": "https://pbs.twimg.com/media/GM1Oor0XMAExQJn?format=jpg&name=large",
+    "title": "SOS enchentes Rio Grande do Sul",
+    "description": "A maior campanha solidária do RS",
+    "pixKey": "enchentes@vakinha.com.br"
   },
   {
-    "id": 1,
-    "image": "https://pbs.twimg.com/media/GNAgBVFXMAMYgfB?format=jpg&name=large",
-    "title": "SOS Rio Grande do Sul - Fresno",
-    "description": "Ajude com qualquer valor",
-    "pixKey": "ajuda@fresnorock.com.br"
-  },
-  {
-    "id": 1,
-    "image": "https://pbs.twimg.com/media/GNAgBVFXMAMYgfB?format=jpg&name=large",
-    "title": "SOS Rio Grande do Sul - Fresno",
-    "description": "Ajude com qualquer valor",
-    "pixKey": "ajuda@fresnorock.com.br"
-  },
-  {
-    "id": 1,
-    "image": "https://pbs.twimg.com/media/GNAgBVFXMAMYgfB?format=jpg&name=large",
-    "title": "SOS Rio Grande do Sul - Fresno",
-    "description": "Ajude com qualquer valor",
-    "pixKey": "ajuda@fresnorock.com.br"
-  },
-  {
-    "id": 1,
-    "image": "https://pbs.twimg.com/media/GNAgBVFXMAMYgfB?format=jpg&name=large",
-    "title": "SOS Rio Grande do Sul - Fresno",
-    "description": "Ajude com qualquer valor",
-    "pixKey": "ajuda@fresnorock.com.br"
-  },
-  {
-    "id": 1,
-    "image": "https://pbs.twimg.com/media/GNAgBVFXMAMYgfB?format=jpg&name=large",
-    "title": "SOS Rio Grande do Sul - Fresno",
-    "description": "Ajude com qualquer valor",
-    "pixKey": "ajuda@fresnorock.com.br"
-  },
-  {
-    "id": 1,
-    "image": "https://pbs.twimg.com/media/GNAgBVFXMAMYgfB?format=jpg&name=large",
-    "title": "SOS Rio Grande do Sul - Fresno",
-    "description": "Ajude com qualquer valor",
-    "pixKey": "ajuda@fresnorock.com.br"
-  },
-  {
-    "id": 1,
-    "image": "https://pbs.twimg.com/media/GNAgBVFXMAMYgfB?format=jpg&name=large",
-    "title": "SOS Rio Grande do Sul - Fresno",
-    "description": "Ajude com qualquer valor",
-    "pixKey": "ajuda@fresnorock.com.br"
-  },
-  {
-    "id": 1,
-    "image": "https://pbs.twimg.com/media/GNAgBVFXMAMYgfB?format=jpg&name=large",
-    "title": "SOS Rio Grande do Sul - Fresno",
-    "description": "Ajude com qualquer valor",
-    "pixKey": "ajuda@fresnorock.com.br"
-  },
-  {
-    "id": 1,
-    "image": "https://pbs.twimg.com/media/GNAgBVFXMAMYgfB?format=jpg&name=large",
-    "title": "SOS Rio Grande do Sul - Fresno",
-    "description": "Ajude com qualquer valor",
-    "pixKey": "ajuda@fresnorock.com.br"
-  },
-  {
-    "id": 1,
-    "image": "https://pbs.twimg.com/media/GNAgBVFXMAMYgfB?format=jpg&name=large",
-    "title": "SOS Rio Grande do Sul - Fresno",
-    "description": "Ajude com qualquer valor",
-    "pixKey": "ajuda@fresnorock.com.br"
-  },
-  {
-    "id": 1,
-    "image": "https://pbs.twimg.com/media/GNAgBVFXMAMYgfB?format=jpg&name=large",
-    "title": "SOS Rio Grande do Sul - Fresno",
-    "description": "Ajude com qualquer valor",
-    "pixKey": "ajuda@fresnorock.com.br"
-  },
-  {
-    "id": 1,
-    "image": "https://pbs.twimg.com/media/GNAgBVFXMAMYgfB?format=jpg&name=large",
-    "title": "SOS Rio Grande do Sul - Fresno",
-    "description": "Ajude com qualquer valor",
-    "pixKey": "ajuda@fresnorock.com.br"
+    "id": 4,
+    "image": "https://pbs.twimg.com/media/GNAzauhXkAEYnPk?format=jpg&name=medium",
+    "title": "SOS Rio Grande do Sul - MST",
+    "description": "Apoio às vítimas da calamidade no RS",
+    "pixKey": "09352141000148"
   }
 ]
