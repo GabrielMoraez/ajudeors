@@ -8,7 +8,6 @@ function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // Simulate fetching data from JSON file
     setTimeout(() => {
       setCards(data);
       setLoading(false);
