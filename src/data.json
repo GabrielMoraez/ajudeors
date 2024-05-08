@@ -61,5 +61,12 @@
     "title": "Doações para as Vítimas das Enchentes - Correios",
     "description": "Agencias em São Paulo, Paraná, Santa Catarina, Bahia, Minas Gerais, Pernambuco, Distrito Federal e Rio de Janeiro estão aceitando doações.",
     "pixKey": "-"
+  },
+  {
+    "id": 10,
+    "image": "https://pbs.twimg.com/media/GNA2w3pWMAEJuV5?format=jpg&name=large",
+    "title": "Doações para as Vítimas das Enchentes - Kaol Porfírio",
+    "description": "A Kaol fará um sorteio com os doadores. Para participar coloque o @ do seu instagram na descrição da transação.",
+    "pixKey": "kaolporfirio@gmail.com"
   }
 ]
