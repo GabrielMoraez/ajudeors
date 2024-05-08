@@ -1,35 +1,41 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useEffect, useState } from "react";
+import "./App.css";
+import data from "./data.json";
+import bandeiraImage from "./assets/bandeira.png";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [cards, setCards] = useState([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    // Simulate fetching data from JSON file
+    setTimeout(() => {
+      setCards(data);
+      setLoading(false);
+    }, 1000);
+  }, []);
 
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <div className="App">
+      <div className="title">
+        <h1>AJUDE O RS!</h1>
+        <img src={bandeiraImage} alt="Bandeira" className="bandeira" />
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+      <div className="card-grid">
+        {cards.map((card) => (
+          <div key={card.id} className="card">
+            <img src={card.image} alt={card.title} />
+            <h2>{card.title}</h2>
+            <p>{card.description}</p>
+            <p>
+              <b>{card.pixKey}</b>
+            </p>
+          </div>
+        ))}
+        {loading && <p>Loading...</p>}
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    </div>
+  );
 }
 
-export default App
+export default App;
