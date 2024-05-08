@@ -26,5 +26,12 @@
     "title": "SOS Rio Grande do Sul - MST",
     "description": "Apoio às vítimas da calamidade no RS",
     "pixKey": "09352141000148"
+  },
+  {
+    "id": 5,
+    "image": "https://pbs.twimg.com/media/GMoDWyOWYAEoOnj?format=jpg&name=medium",
+    "title": "SOS Chuvas RS - CUFA",
+    "description": "Apoio da CUFA Rio Grande do Sul às vítimas das enchentes",
+    "pixKey": "doacoescufars@gmail.com"
   }
 ]
