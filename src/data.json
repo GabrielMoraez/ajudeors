@@ -49,10 +49,17 @@
     "pixKey": "-"
   },
   {
-    "id": 7,
+    "id": 8,
     "image": "https://pbs.twimg.com/media/GNAjxlgWcAA_taW?format=jpg&name=large",
     "title": "SOS Chuvas Rio Grande do Sul - São Paulo FR",
     "description": "Doação de itens no estádio MorumBIS - seg a sex",
+    "pixKey": "-"
+  },
+  {
+    "id": 9,
+    "image": "https://pbs.twimg.com/media/GNBLAhGWQAAkWbi?format=jpg&name=medium",
+    "title": "Doações para as Vítimas das Enchentes - Correios",
+    "description": "Agencias em São Paulo, Paraná, Santa Catarina, Bahia, Minas Gerais, Pernambuco, Distrito Federal e Rio de Janeiro estão aceitando doações.",
     "pixKey": "-"
   }
 ]
