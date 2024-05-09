@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import data from "./data.json";
 import bandeiraImage from "./assets/bandeira.png";
+import Card from "./components/Card/Card";
 
 function App() {
   const [cards, setCards] = useState([]);
@@ -22,14 +23,7 @@ function App() {
       </div>
       <div className="card-grid">
         {cards.map((card) => (
-          <div key={card.id} className="card">
-            <img src={card.image} alt={card.title} />
-            <h2>{card.title}</h2>
-            <p>{card.description}</p>
-            <small>
-              <b>{`PIX: ${card.pixKey}`}</b>
-            </small>
-          </div>
+          <Card campaing={card} key={card.id} />
         ))}
         {loading && <p>Loading...</p>}
       </div>
