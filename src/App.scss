@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+}
+
+.hero {
+  height: 500px;
+  background-image: url("https://s3-alpha-sig.figma.com/img/34ee/0501/a46b37a0273e18670bdd1ad4a2fcad09?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=P5bl-ojRj58tI-V9wi0VMJYJpjRIkW9gjPuaAj~s-D7v8MyJeNZvFgmdXa5TwqqXLPeP~W8lkC95IFknyWKD-~-GL0s9PpwXLr8mcYh3d1jaAtPDRgg-D01R6dN1xdmsIFEtmalftRM2ynQfQCJnM1fWZotHU8jERch~sbaWlYOUXiH0i9uiED7j3xee1Uk4YGdgj0Zw9huHp~R5g~ZrgTd2yAL7gju~hOFCcQ55MmLEX7LhlmU0qia9b7i~7UYJVN1UM5KatsnGCmG6M9GX0TBSBVUpV8z-qNJuzSDOTsHtxizSFcGuZOl75PY1Vy36MzyhAiJzXsI54h2scevvtw__");
+  background-size: cover;
+  background-position: center;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: flex-end;
+  &__header {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  &__title {
+    color: #fff;
+    font-size: 36px;
+    line-height: 45px;
+    font-weight: 600;
+    text-align: left;
+    background-color: #1a1d23;
+    width: fit-content;
+    padding: 10px;
+  }
+  &__subtitle {
+    color: #fff;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400;
+    text-align: left;
+    background-color: #1a1d23;
+    width: fit-content;
+    padding: 10px;
+    border-right: 2px solid transparent;
+    &::after {
+      content: "";
+      display: inline-block;
+      width: 1px;
+      height: 1.2em;
+      vertical-align: bottom;
+      border-right: 2px solid #fff;
+      animation: blinkCursor 0.7s step-end infinite;
+    }
+  }
+  &__description {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 300;
+    color: #fff;
+    text-align: left;
+  }
+}
+
+@keyframes blinkCursor {
+  from,
+  to {
+    border-color: transparent; /* Hide cursor */
+  }
+  50% {
+    border-color: #fff; /* Show cursor */
+  }
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 24px;
+}
+
+@media screen and (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+}
