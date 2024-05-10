@@ -18,8 +18,8 @@ function App() {
 
   const [phrases, setPhrases] = useState([
     "São mais de 232.000 pessoas desabrigadas",
-    "São mais de 1.4 milhão de pessoas afetas",
-    "425 cidades afetas até agora",
+    "São mais de 1.4 milhão de pessoas afetadas",
+    "425 cidades atingidas até agora",
   ]);
   const [currentPhraseIndex, setCurrentPhraseIndex] = useState(0);
   const [currentPhrase, setCurrentPhrase] = useState("");
