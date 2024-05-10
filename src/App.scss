@@ -4,14 +4,15 @@
 
 .hero {
   height: 500px;
-  background-image: url("https://s3-alpha-sig.figma.com/img/34ee/0501/a46b37a0273e18670bdd1ad4a2fcad09?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=P5bl-ojRj58tI-V9wi0VMJYJpjRIkW9gjPuaAj~s-D7v8MyJeNZvFgmdXa5TwqqXLPeP~W8lkC95IFknyWKD-~-GL0s9PpwXLr8mcYh3d1jaAtPDRgg-D01R6dN1xdmsIFEtmalftRM2ynQfQCJnM1fWZotHU8jERch~sbaWlYOUXiH0i9uiED7j3xee1Uk4YGdgj0Zw9huHp~R5g~ZrgTd2yAL7gju~hOFCcQ55MmLEX7LhlmU0qia9b7i~7UYJVN1UM5KatsnGCmG6M9GX0TBSBVUpV8z-qNJuzSDOTsHtxizSFcGuZOl75PY1Vy36MzyhAiJzXsI54h2scevvtw__");
-  background-size: cover;
+  background-image: url("@/assets/hero-bg.png");
   background-position: center;
   padding: 24px;
   display: flex;
   flex-direction: column;
   gap: 24px;
   justify-content: flex-end;
+  font-family: "Sora", sans-serif;
+
   &__header {
     display: flex;
     flex-direction: column;
