@@ -51,6 +51,12 @@
     color: #1a1d23;
     width: 100%;
     background-color: #14f9a6;
+    margin-top: auto;
+    transition: background-color 0.3s ease;
+    &:hover {
+      cursor: pointer;
+      background-color: #0ed49b;
+    }
   }
 }
 
